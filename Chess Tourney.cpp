@@ -14,7 +14,7 @@ int main()
 		cin >> players[i];
 	}
 	sort(players.begin(), players.end());
-	if (players[players.size()/] > players[players.size() / 2-1])
+	if (players[players.size()/2] > players[players.size() / 2-1])
 		cout << "YES" << endl;
 	else
 		cout << "NO" << endl;
